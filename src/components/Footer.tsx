@@ -19,10 +19,9 @@ const Footer = () => {
         <div className="flex flex-col gap-y-4 ml-2">
           <Logo/>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa in
-            sint incidunt, minima quos voluptates, nobis autem laborum earum est
-            pariatur aperiam. Delectus consectetur maxime quidem veniam,
-            corporis.
+            Allinone is a leading online store for sportswear and limited edition
+            collections. We offer a wide range of products to suit every athlete's
+            needs, from high-performance gear to stylish everyday wear.
           </p>
           <div className="flex items-center gap-x-4">
             <a href="https://www.youtube.com/@reactjsBD" target="_blank">

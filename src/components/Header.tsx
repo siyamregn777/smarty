@@ -61,7 +61,7 @@ const Header = () => {
     // <div className= "bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_66%)]">// </div>
     // <div className= "[mask-image:linear-gradient(to_right,transparent, black, transparent)]"></div>
     // <div className='bg-gradient-to-r from-orange-500 to-orange-800'></div>
-    <div className={`bg-bodyColor h-20 top-0 sticky z-50 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#13EC2,#EAEEFE_66%)] ${IsSrolled ? 'drop-shadow-[0_4px_25px_rgba(0,0,10,0.9)]' : ""}`}>
+    <div className={`bg-bodyColor h-20 top-0 sticky ml-10px z-50 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#13EC2,#EAEEFE_66%)] ${IsSrolled ? 'drop-shadow-[0_4px_25px_rgba(0,0,10,0.9)]' : ""}`}>
       <Container className="h-full flex items-center md:gap-x-5 justify-between md:justify-start ml-3">
         <Logo />
         {/* Search Field */}

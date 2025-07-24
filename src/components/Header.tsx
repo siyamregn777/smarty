@@ -76,9 +76,9 @@ const Header = () => {
         </div>
         <div className="justify-center items-center p-5 ">
             <Link className="px-5 py-1 m-2 hover:bg-gradient-to-r from-gray-300 to-white hover:bg-gray-400 border rounded-[20px] transition-all duration-600" href="/">Home</Link>
-            <Link className="px-5 py-1 m-2 hover:bg-gradient-to-r from-gray-300 to-white hover:bg-gray-400 border rounded-[20px] transition-all duration-600" href="/about">About_Us</Link>
+            <Link className="whitespace-nowrap px-5 py-1 m-2 hover:bg-gradient-to-r from-gray-300 to-white hover:bg-gray-400 border rounded-[20px] transition-all duration-600" href="/about">About Us</Link>
             <Link className="px-5 py-1 m-2 hover:bg-gradient-to-r from-gray-300 to-white hover:bg-gray-400 border rounded-[20px] transition-all duration-600" href="/contact">Contact</Link>
-            <Link className="px-5 py-1 m-2 hover:bg-gradient-to-r from-gray-300 to-white hover:bg-gray-400 border rounded-[20px] transition-all duration-600" href="/products">Products</Link>
+            <Link className="px-5 py-1 m-2 hover:bg-gradient-to-r from-gray-300 to-white hover:bg-gray-400 border rounded-[20px] transition-all duration-600" href="/cart">Products</Link>
           </div>
         {/* Login/Register */}
         {!session && (
